@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    width: 100%;
+}
+.shining-title {
+    font-size:38px;
+    color:#4B0082;
+    text-shadow: 0 0 5px #fff, 0 0 10px #4A90E2, 0 0 15px #4A90E2, 0 0 20px #4A90E2, 0 0 25px #4A90E2, 0 0 30px #4A90E2, 0 0 30px #4A90E2;
+    animation: shine 1.5s infinite;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 20px;
+    margin-right: 500px;
+    margin-bottom: 40px;
+}
+
+#container {
+    justify-content: center;
+    border:3px solid darkblue;
+    border-radius: 10px;
+}
+
+.grid-item{
+    border: 1px solid rgb(142, 175, 208);
+    box-sizing:border-box;
+    border-radius:2px;
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap:100px;
+    padding: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.btn{
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    
+}
+.btn0{
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin-left: 25px;
+    font-weight: bolder;
+    background-color:cadetblue;
+    color: #fff;
+}
+
+.btn0:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px aqua;
+}
+.btn0:active{
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #fff;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px aqua;
+}
+
+.btn:active{
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #fff;
+}
+
+.gSize{
+    margin-top: 60px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    width:100px;
+    height:30px;
+    text-align: center;
+    margin-left: 25px;
+    font-weight: bolder;
+    background-color:cadetblue;
+    color: #fff;
+}
+
+.gSize:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px aqua;
+}
+
+.gSize:active{
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #fff;
+}
+
